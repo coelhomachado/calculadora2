@@ -5,7 +5,7 @@ def calculadora(num1, num2, opcao_calculo):
     return num1 - num2
   elif opcao_calculo == 3:
     return num1 * num2
-  elif opcao_calculo == 4:
+  elif opcao_calculo == 4 and num2 !=0:
     return num1 / num2
   else:
     return 0
